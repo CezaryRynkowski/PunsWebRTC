@@ -2,21 +2,32 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <style src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></style>
 </head>
 <body>
   <canvas id="canvas" width="490" height="220"></canvas>
-	<button id="clearButton" type="button">Clear!</button>
-	<hr/>
+	  <button id="clearButton" type="button">Clear!</button>
 		<button id="purpleColorBtn" type="button">Purple</button>
 		<button id="greenColorBtn" type="button">Green</button>
 		<button id="yellowColorBtn" type="button">Yellow</button>
 		<button id="brownColorBtn" type="button">Brown</button>
-  <hr/>
     <button id="smallSizeBtn" type="button">Small</button>
     <button id="normalSizeBtn" type="button">Normal</button>
     <button id="largeSizeBtn" type="button">Large</button>
     <button id="hugeSizeBtn" type="button">Huge</button>
+  <br/>
+  <hr/>
+     <video autoplay></video>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="crossorigin="anonymous"></script>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
   <script src="app.js"></script>
+
+<style>
+  canvas{
+    border: 1px solid black;
+  }
+</style>
+
 </body>
 </html>
