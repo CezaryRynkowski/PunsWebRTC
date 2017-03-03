@@ -1,0 +1,13 @@
+node_modules
+build
+
+*.mk
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
